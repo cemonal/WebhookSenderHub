@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookSenderHub", "WebhookSenderHub.csproj", "{061194FD-6255-49EF-8EC5-F5AA222D9140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{061194FD-6255-49EF-8EC5-F5AA222D9140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061194FD-6255-49EF-8EC5-F5AA222D9140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061194FD-6255-49EF-8EC5-F5AA222D9140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061194FD-6255-49EF-8EC5-F5AA222D9140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7F9D582-4569-484A-B8BA-245510CB4811}
+	EndGlobalSection
+EndGlobal
