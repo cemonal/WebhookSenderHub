@@ -12,7 +12,7 @@ namespace WebhookSenderHub
     /// <summary>
     /// Base class for Webhook Services. Inherit from this class to implement webhook functionality.
     /// </summary>
-    public abstract class WebhookService<T> : IWebhookService<T> where T : class
+    public abstract class WebhookService<T> : IWebhookService<T> where T : IMessageCard
     {
         private readonly Uri _uri;
 

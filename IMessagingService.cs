@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace WebhookSenderHub
 {
-    public interface IMessagingService<T> : IWebhookService<T> where T : class
+    public interface IMessagingService<T> : IWebhookService<T> where T : IMessageCard
     {
         /// <summary>
         /// Sends a message with the specified text, title, summary, and theme color.

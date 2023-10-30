@@ -6,7 +6,7 @@ namespace WebhookSenderHub.Slack
     /// <summary>
     /// Represents a Slack message card to be sent via webhook.
     /// </summary>
-    public class MessageCard
+    public class MessageCard : IMessageCard
     {
         /// <summary>
         /// Gets or sets the channel where the message card will be sent.

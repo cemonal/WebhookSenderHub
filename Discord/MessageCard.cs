@@ -7,7 +7,7 @@ namespace WebhookSenderHub.Discord
     /// <summary>
     /// Represents a Discord message card to be sent via webhook.
     /// </summary>
-    public class MessageCard
+    public class MessageCard : IMessageCard
     {
         [JsonPropertyName("content")]
         public string Content { get; set; }

@@ -8,7 +8,7 @@ namespace WebhookSenderHub
     /// Interface for Webhook Services. Implement this interface to create webhook functionality.
     /// </summary>
     /// <typeparam name="T">The type of message to be sent via the webhook.</typeparam>
-    public interface IWebhookService<T> where T : class
+    public interface IWebhookService<T> where T : IMessageCard
     {
         /// <summary>
         /// Sends the specified message to the webhook asynchronously.

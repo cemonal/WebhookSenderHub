@@ -5,9 +5,9 @@ using System.Text.Json.Serialization;
 namespace WebhookSenderHub.Teams
 {
     /// <summary>
-    /// Represents a MessageCard object used for sending messages to a specified channel.
+    /// Represents a <see cref="MessageCard"/> object used for sending messages to a specified channel.
     /// </summary>
-    public class MessageCard
+    public class MessageCard : IMessageCard
     {
         [JsonPropertyName("@type")]
         public string Type { get; set; } = "MessageCard";
