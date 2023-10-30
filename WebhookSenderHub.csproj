@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Cem Önal</Authors>
+    <Description>A library for sending webhook messages using .NET Standard 2.0. This library provides a flexible and easy-to-use interface to send messages via webhooks to various platforms such as Teams, Slack, and Discord.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/cemonal/WebhookSenderHub</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>webhook messaging teams slack discord .net standard 2.0 webhook-sender</PackageTags>
+    <Title>WebhookSenderHub</Title>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +18,13 @@
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
