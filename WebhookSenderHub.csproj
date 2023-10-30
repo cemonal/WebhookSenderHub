@@ -10,6 +10,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>webhook messaging teams slack discord .net standard 2.0 webhook-sender</PackageTags>
     <Title>WebhookSenderHub</Title>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
